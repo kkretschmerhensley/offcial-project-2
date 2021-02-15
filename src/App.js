@@ -5,7 +5,9 @@ import {Addition} from './Addition.js';
 const App = () => {
   return (
     <>
-      <Addition numberOne={1} numberTwo={1}/>
+      <Addition numberOne={12} numberTwo={4}/>
+      <Addition numberOne={-14} numberTwo={25}/>
+      <Addition numberOne={2.27} numberTwo={13.543}/>
     </>
   );
 }
