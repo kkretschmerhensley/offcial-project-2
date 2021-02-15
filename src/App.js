@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Addition from './Addition';
+import {Addition} from './Addition.js';
 
 const App = () => {
   return (
     <>
-      <h1>Addition</h1>
+      <Addition numberOne={1} numberTwo={1}/>
     </>
   );
 }
