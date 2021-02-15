@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {Addition} from './Addition.js';
+import {Addition} from './Addition';
 
 const App = () => {
   const styles = {
